@@ -11,7 +11,7 @@
   - [ ] Définition des relations entre les entités (#4)
 - [ ] **Problème 3:** Planification de l'Architecture
   - [ ] Choix de l'architecture logicielle (#5)
-  - [ ] Planification de notre la structure des dossiers (#6)
+  - [ ] Planification de la structure des dossiers (#6)
 
 ### Milestone 2: Configuration de l'Environnement de Développement
 - [ ] **Problème 4:** Installation de Laravel
