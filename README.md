@@ -1,6 +1,6 @@
 # Roadmap de Développement - Gestion de Stock
 
-## Version 1.0.0 (Date de Livraison : [Date])
+## Version 1.0.0 (Date de Livraison : [le 30/12/2023])
 
 ### Milestone 1: Planification et Conception
 - [ ] **Problème 1:** Définir les Besoins
