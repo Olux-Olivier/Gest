@@ -32,7 +32,5 @@ class DatabaseSeeder extends Seeder
          order_item::factory(100)->create();
          Supplier::factory(10)->create();
 
-
-
     }
-}
+} 
