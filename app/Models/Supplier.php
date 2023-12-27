@@ -13,4 +13,7 @@ class Supplier extends Model
         'supplier_name',
         'contact',
     ];
+
+    
+
 }
