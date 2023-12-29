@@ -17,16 +17,16 @@ class Product extends Model
         'supplier_id',
     ];
 
-    public function category()
+    public function Category()
     {
         return $this->hasMany(Category::class);
     }
-    
+
     //-------------
     public function supplier()
     {
         return $this->hasMany(Supplier::class);
     }
 
-    protected $foreignKey = ['category_id', 'supplier_id']; 
+    protected $foreignKey = ['category_id', 'supplier_id'];
 }
