@@ -18,9 +18,6 @@ return new class extends Migration
             $table->integer('quantity_in_stock');
             $table->integer('category_id');
             $table->integer('supplier_id');
-
-            $table->foreign('category_id')->references('id')->on('category');
-            $table->foreign('supplier_id')->references('id')->on('suppliers');
             $table->timestamps();
         });
     }

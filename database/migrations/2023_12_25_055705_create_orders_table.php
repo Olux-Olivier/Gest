@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('orders', function (Blueprint $table) {
             $table->id();
-            $table->integer('customer_id');
-            $table->date('order_date');
+            $table->integer('name');
+            $table->date('date');
             $table->integer('total_amount');
 
             $table->timestamps();

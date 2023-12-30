@@ -10,15 +10,15 @@ class Order extends Model
     use HasFactory;
 
     protected $fillable = [
-        'customer_id',
-        'order_date',
+        'name',
+        'date',
         'total_amount',
     ];
 
-    public function user()
-    {
-        return $this->hasMany(User::class, 'customer_id', 'id');
-    }
+//    public function user()
+//    {
+//        return $this->hasMany(User::class, 'user_id', 'id');
+//    }
 
 
 }
