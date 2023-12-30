@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Order_item extends Model
 {
@@ -16,18 +17,14 @@ class Order_item extends Model
         'sub_total',
     ];
 
-
-    public function order()
+    public function order(): HasMany
     {
-        return $this->hasMany(Order::class);
-    }
-    
-    //-------------
-    public function product()
-    {
-        return $this->hasMany(Product::class);
+        return $this->hasMany(Order::class,'order_id', 'id');
     }
 
-    protected $foreignKey = ['order_id', 'product_id']; 
+    public function product() : HasMany
+    {
+        return $this->hasMany(Product::class,'product_id', 'id');
+    }
 
 }
