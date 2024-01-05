@@ -12,7 +12,8 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-Route::get('/', function(){
-    return "succes";
-});
 
+Route::get('store',[\App\Http\Controllers\ProductController::class,'store']);
+
+
+Route::get('product',[\App\Http\Controllers\ProductController::class, 'index'])->name('index');

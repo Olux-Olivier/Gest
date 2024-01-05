@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
 class ProductController extends Controller
 {
@@ -12,7 +13,21 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        $product = Product::all();
+        return view('welcome',['product'=>$product]);
+    }
+
+    public function store(Request $request)
+    {
+        $data = $request->validate([
+            'product_name' => 'required',
+            'price' => 'required',
+            'quantity_in_stock' => 'required',
+        ]);
+
+            Product::create($data);
+            $data->save();
+            return view('welcome');
     }
 
     /**
@@ -20,16 +35,12 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
-    {
-        //
-    }
 
     /**
      * Display the specified resource.
