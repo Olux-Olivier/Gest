@@ -49,6 +49,10 @@ class ProductController extends Controller
     {
         //
     }
+    public function article()
+    {
+        return view('create.newproduit');
+    }
 
     /**
      * Show the form for editing the specified resource.
