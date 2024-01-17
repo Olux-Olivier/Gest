@@ -17,6 +17,7 @@
                 <input type="text" name="product_name">
             </label><br>
 
+
             <label>
                 Price
                 <input type="number" name="price">
