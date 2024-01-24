@@ -10,22 +10,31 @@
 <body>
     <div>
         <h1>Register Product</h1>
-        <form method="get" action="{{ route('/') }}" >
+        <form method="post" action="" >
         @csrf
             <label>
                 Product name
                 <input type="text" name="product_name">
+                @error("product_name")
+                    {{ $message }}
+                @enderror
             </label><br>
 
 
             <label>
                 Price
                 <input type="number" name="price">
+                @error("price")
+                    {{ $message }}
+                @enderror
             </label><br>
 
             <label>
                 Quantity stock
                 <input type="number" name="quantity_in_stock">
+                @error("quantity_in_stock")
+                    {{ $message }}
+                @enderror
             </label><br>
 
             <button>Register</button>

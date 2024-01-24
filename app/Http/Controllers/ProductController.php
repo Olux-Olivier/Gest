@@ -2,16 +2,38 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\CreateProductRequest;
 use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
 class ProductController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
+   
+    // formulaire produit
+    public function register()
+    {
+        return view('registerProduct');
+    }
+
+
+    // enbregistrer un produit
+    public function createProduct(CreateProductRequest $request){
+        $product = Product::create($request-->validate());
+
+        return redirect()->route('welcome')->with('success', "produit enregistré avec succés");
+    }
+
+
+
+
+
+
+
+
+
+
+    public function product()
     {
         $product = Product::all();
         return view('welcome',['product'=>$product]);
@@ -28,14 +50,6 @@ class ProductController extends Controller
             Product::create($data);
             $data->save();
             return view('welcome');
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-
     }
 
     /**
