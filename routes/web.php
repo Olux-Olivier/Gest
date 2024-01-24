@@ -19,4 +19,4 @@ Route::get('/article',[ProductController::class,'article']);
 Route::get('product',[ProductController::class, 'product'])->name('product');
 
 Route::get('/register', [ProductController::class,'register']);
-Route::post('/register', [\App\Http\Controllers\ProductController::class,'createProduct']);
+Route::post('/register', [ProductController::class,'createProduct']);
