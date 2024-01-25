@@ -15,7 +15,7 @@
         @csrf
             <label>
                 Product name
-                <input type="text" name="product_name">
+                <input type="text" name="product_name" value="{{ old("product_name") }}">
                 @error("product_name")
                     {{ $message }}
                 @enderror
