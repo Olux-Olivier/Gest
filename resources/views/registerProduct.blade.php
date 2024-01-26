@@ -38,6 +38,30 @@
                 @enderror
             </label><br>
 
+            <label for="category">
+                Category
+                <select name="category" id="category">
+                    <option value="1">aliment</option>
+                    <option value="2">device</option>
+                    <option value="3">metal</option>
+                </select>
+            </label><br>
+
+
+            <label for="supplier">
+                Supplier
+                
+                <select name="supplier" id="supplier">
+                    @foreach($category as $it) 
+                        <option value="{{ $it->id }}">{{ $it->name }}</option>
+                    @endforeach
+                        
+                </select><br>
+                
+            </label>
+
+
+
             <button>Register</button>
 
         </form>

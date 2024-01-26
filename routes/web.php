@@ -1,6 +1,9 @@
 <?php
 
+// namespace App\Http\Controllers\Controller;
+
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +24,4 @@ Route::get('product',[ProductController::class, 'product'])->name('product');
 
 Route::get('/register', [ProductController::class,'register']);
 Route::post('/register', [ProductController::class,'createProduct']);
+Route::get('register', [CategoryController::class, 'index']);

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\CreateProductRequest;
+// use App\Http\Requests\CreateProductRequest;
 use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
@@ -18,10 +18,18 @@ class ProductController extends Controller
 
 
     // enbregistrer un produit
-    public function createProduct(CreateProductRequest $request){
-        $product = Product::create($request-->validate());
+    public function createProduct(Request $request){
+        
 
-        return redirect()->route('welcome')->with('success', "produit enregistré avec succés");
+        $product = Product::create([
+            'product_name' =>$request->input('product_name'),
+            'price' => $request->input('price'),
+            'quantity_in_stock' => $request->input('quantity_in_stock'),
+            'category_id' => $request->input('category'),
+            'supplier_id' => $request->input('supplier'),
+        ]);
+
+        return redirect()->route('product')->with('success', "produit enregistré avec succés");
     }
 
 
