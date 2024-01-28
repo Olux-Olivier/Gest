@@ -32,20 +32,20 @@ class ProductController extends Controller
         return redirect()->route('product')->with('success', "produit enregistré avec succés");
     }
 
-
-
-
-
-
-
-
-
-
     public function product()
     {
         $product = Product::all();
         return view('welcome',['product'=>$product]);
     }
+
+
+
+
+
+
+
+
+    
 
     public function store(Request $request)
     {

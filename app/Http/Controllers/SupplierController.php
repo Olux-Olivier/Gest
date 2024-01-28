@@ -4,23 +4,36 @@ namespace App\Http\Controllers;
 
 use App\Models\Supplier;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
 class SupplierController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function registerSupplier()
     {
-        //
+        return view('registerSupplier');
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function createSupplier(Request $request)
     {
-        //
+        $supplier = Supplier::create([
+            'name' =>$request->input('name'),
+            'contact' => $request->input('contact'),
+        ]);
+
+        return redirect()->route('supplier')->with('success', "Supplier enregistré avec succés");
+    }
+
+
+    public function supplier()
+    {
+        $supplier = Supplier::all();
+        return view('supplier',['supplier'=>$supplier]);
     }
 
     /**
@@ -28,7 +41,7 @@ class SupplierController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**

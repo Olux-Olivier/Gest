@@ -1,7 +1,7 @@
 <?php
 
 // namespace App\Http\Controllers\Controller;
-
+use App\Http\Controllers\SupplierController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Route;
@@ -20,8 +20,16 @@ use Illuminate\Support\Facades\Route;
 //Route::get('store',[\App\Http\Controllers\ProductController::class,'store']);
 
 Route::get('/article',[ProductController::class,'article']);
-Route::get('product',[ProductController::class, 'product'])->name('product');
 
-Route::get('/register', [ProductController::class,'register']);
+
+Route::get('product',[ProductController::class, 'product'])->name('product'); //list products
+Route::get('/register', [ProductController::class,'register']); //regsiter product
 Route::post('/register', [ProductController::class,'createProduct']);
+
+Route::get('supplier',[SupplierController::class, 'supplier'])->name('supplier'); //list supplier
+Route::get('/registerSup', [SupplierController::class,'registerSupplier'])->name('registerSupplier'); //register supplier
+Route::post('/registerSup', [SupplierController::class,'createSupplier']); // create supplier
+
+
+//affichage des categopries sur le formulaire registerProduct
 Route::get('register', [CategoryController::class, 'index']);
