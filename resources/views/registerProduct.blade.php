@@ -21,13 +21,14 @@
                     {{ $message }}
                 @enderror
 
-            <label>
+            <label class="block" for="price">
                 Price
-                <input type="number" name="price">
+            </label>
+                <input id="price" type="number" name="price">
                 @error("price")
                     {{ $message }}
                 @enderror
-            </label><br>
+
 
             <label>
                 Quantity stock
