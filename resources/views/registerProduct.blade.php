@@ -13,15 +13,13 @@
         <h1>Register Product</h1>
         <form method="post" action="" >
         @csrf
-            <label>
+            <label for="name" class="block">
                 Product name
-                <input type="text" name="product_name" value="{{ old("product_name") }}">
+            </label>
+                <input id="name" type="text" name="product_name" value="{{ old("product_name") }}">
                 @error("product_name")
                     {{ $message }}
-
                 @enderror
-            </label><br>
-
 
             <label>
                 Price
