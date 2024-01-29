@@ -14,6 +14,7 @@
         <form method="post" action="" >
         @csrf
             <label>
+
                 Product name
                 <input type="text" name="product_name" value="{{ old("product_name") }}">
                 @error("product_name")
@@ -50,14 +51,14 @@
 
             <label for="supplier">
                 Supplier
-                
+
                 <select name="supplier" id="supplier">
-                    @foreach($category as $it) 
+                    @foreach($category as $it)
                         <option value="{{ $it->id }}">{{ $it->name }}</option>
                     @endforeach
-                        
+
                 </select><br>
-                
+
             </label>
 
 
