@@ -30,13 +30,14 @@
                 @enderror
 
 
-            <label>
+            <label for="qty">
                 Quantity stock
-                <input type="number" name="quantity_in_stock">
+
+            </label>
+                <input id="qty" type="number" name="quantity_in_stock">
                 @error("quantity_in_stock")
                     {{ $message }}
                 @enderror
-            </label><br>
 
             <label for="category">
                 Category
