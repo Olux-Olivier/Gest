@@ -21,15 +21,26 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/article',[ProductController::class,'article']);
 
-
+//Routes des produits
 Route::get('product',[ProductController::class, 'product'])->name('product'); //list products
 Route::get('/register', [ProductController::class,'register']); //regsiter product
 Route::post('/register', [ProductController::class,'createProduct']);
 
-Route::get('supplier',[SupplierController::class, 'supplier'])->name('supplier'); //list supplier
-Route::get('/registerSup', [SupplierController::class,'registerSupplier'])->name('registerSupplier'); //register supplier
-Route::post('/registerSup', [SupplierController::class,'createSupplier']); // create supplier
+
 
 
 //affichage des categopries sur le formulaire registerProduct
 Route::get('register', [CategoryController::class, 'index']);
+
+
+
+
+//Routes des fournissseurs
+Route::get('supplier',[SupplierController::class, 'supplier'])->name('supplier'); //list supplier
+Route::get('/registerSup', [SupplierController::class,'registerSupplier'])->name('registerSupplier'); //register supplier
+Route::post('/registerSup', [SupplierController::class,'createSupplier']); // create supplier
+
+//Route des categories
+Route::get('category', [CategoryController::class, 'index'])->name('category');
+Route::get('createCategorie', [CategoryController::class, 'create'])->name('createCategorie');
+Route::post('createCategorie', [CategoryController::class, 'store'])->name('store');

@@ -14,7 +14,7 @@ class CategoryController extends Controller
     public function index()
     {
         $category = Category::all();
-        return view('registerProduct', ['category'=>$category]);
+        return view('category', ['category'=>$category]);
     }
 
     /**
@@ -22,7 +22,13 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        //
+
+
+        $category = new Category();
+
+        return view('registerCategorie', [
+            'category' => $category,
+        ]);
     }
 
     /**
@@ -30,7 +36,13 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->all();
+
+        $category = new Category();
+        $category->name = $data['name'];
+        $category->save();
+
+        return redirect()->route('category')->with('success', "categorie enregistrée avec succés");
     }
 
     /**
