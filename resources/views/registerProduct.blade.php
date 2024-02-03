@@ -73,44 +73,7 @@
     <!doctype html>
 <html lang="en">
 
-<!-- Mirrored from epicurean.netlify.app/epicurean/reservation by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Feb 2024 06:15:05 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Epicurean - Food & Restaurant Html Template</title>
-
-    <link rel="icon" href="assets/images/fav.png" type="image/gif" sizes="20x20">
-
-    <!-- Box Icon CSS -->
-    <link rel="stylesheet" href="assets/css/boxicons.min.css">
-    <!-- Bootstrap Icon CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
-    <!-- Swiper Carousel CSS -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!-- Wow CSS -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!-- Magnific Popup CSS -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- Odometer CSS -->
-    <link rel="stylesheet" href="assets/css/odometer.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Meanmenu CSS -->
-    <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-    <!-- Meanmenu CSS -->
-    <link rel="stylesheet" href="assets/css/YouTubePopUp.css">
-    <!-- Select2 CSS -->
-    <link rel="stylesheet" href="assets/css/select2.css">
-    <!-- Datepicker CSS -->
-    <link rel="stylesheet" href="assets/css/datepicker.css">
-
-
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-
-</head>
+@include('App.app')
 <body>
 
 <br>
@@ -265,6 +228,5 @@
 <script src="assets/js/main.js"></script>
 </body>
 
-<!-- Mirrored from epicurean.netlify.app/epicurean/reservation by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Feb 2024 06:16:21 GMT -->
 </html>
 
