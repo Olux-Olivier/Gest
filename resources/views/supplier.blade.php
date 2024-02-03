@@ -22,7 +22,7 @@
                 <tr>
                     <td>{{ $supp->id }}</td>
                     <td>{{ $supp->name }}</td>
-                    <td>{{ $supp->price }}</td>
+                    <td>{{ $supp->contact }}</td>
                 </tr>
             @endforeach
 

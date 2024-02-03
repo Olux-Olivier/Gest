@@ -19,7 +19,7 @@ class SupplierFactory extends Factory
         return [
             //
             'name' => $this->faker->word(),
-            'contact' => $this->faker->email(),
+            'contact' => $this->faker->unique()->safeEmail(),
         ];
     }
 }

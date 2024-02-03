@@ -16,6 +16,7 @@
                     <th>product name</th>
                     <th>price</th>
                     <th>quantity stock</th>
+                    <th>expiry_date</th>
                     <th>category_id</th>
                     <th>supplier_id</th>
                 </tr>
@@ -27,6 +28,7 @@
                     <td>{{ $prod->product_name }}</td>
                     <td>{{ $prod->price }}</td>
                     <td>{{ $prod->quantity_in_stock }}</td>
+                    <td>{{ $prod->expiry_date }}</td>
                     <td>{{ $prod->category_id }}</td>
                     <td>{{ $prod->supplier_id }}</td>
                 </tr>

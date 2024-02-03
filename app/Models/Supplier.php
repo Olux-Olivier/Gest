@@ -14,6 +14,4 @@ class Supplier extends Model
         'contact',
     ];
 
-
-
 }
