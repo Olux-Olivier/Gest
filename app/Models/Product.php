@@ -13,6 +13,7 @@ class Product extends Model
         'product_name',
         'price',
         'quantity_in_stock',
+        'expiry_date',
         'category_id',
         'supplier_id',
     ];

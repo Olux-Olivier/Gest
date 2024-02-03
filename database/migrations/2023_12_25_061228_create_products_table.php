@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('product_name');
             $table->integer('price');
             $table->integer('quantity_in_stock');
+            $table->date('expiry_date');
             $table->integer('category_id');
             $table->integer('supplier_id');
             $table->timestamps();

@@ -13,6 +13,8 @@
 {{--        <h1>Register Product</h1>--}}
 {{--        <form method="post" action="" >--}}
 {{--        @csrf--}}
+
+                <!-- name block -->
 {{--            <label for="name" class="block">--}}
 {{--                Product name--}}
 {{--            </label>--}}
@@ -21,6 +23,8 @@
 {{--                    {{ $message }}--}}
 {{--                @enderror--}}
 
+
+                <!-- price block -->
 {{--            <label class="block" for="price">--}}
 {{--                Price--}}
 {{--            </label>--}}
@@ -30,6 +34,8 @@
 {{--                @enderror--}}
 
 
+
+                <!-- quantity block -->
 {{--            <label for="qty">--}}
 {{--                Quantity stock--}}
 
@@ -39,6 +45,8 @@
 {{--                    {{ $message }}--}}
 {{--                @enderror--}}
 
+
+                <!-- category block -->
 {{--            <label for="category">--}}
 {{--                Category--}}
 {{--                <select name="category" id="category">--}}
@@ -49,6 +57,7 @@
 {{--            </label><br>--}}
 
 
+                <!--supplier block  -->
 {{--            <label for="supplier">--}}
 {{--                Supplier--}}
 
