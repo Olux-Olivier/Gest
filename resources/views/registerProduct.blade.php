@@ -113,198 +113,54 @@
 </head>
 <body>
 
-<!-- Custom Cursor -->
+<br>
+<br>
+<br>
+
 
 <div class="cursor d-none d-lg-block"></div>
 
-<!-- Custom Cursor End -->
 
-<!-- Preloader -->
-
-<div class="intro_sec ">
-    <div class="intro_screen animate">
-        <svg width="607" height="834" viewBox="0 0 607 834" fill="none" xmlns="../../www.w3.org/2000/svg.html">
-            <path d="M470.286 344.294C465.31 342.22 460.75 340.145 455.774 338.485C435.873 331.846 415.971 327.282 396.484 325.208C385.704 323.963 374.924 323.548 364.558 323.548C323.926 323.548 287.854 331.846 256.343 348.443C217.369 368.775 185.858 396.99 163.054 431.014C159.323 436.408 156.006 441.802 153.104 447.196L113.715 322.718C120.763 321.473 127.812 320.229 134.86 317.739C158.079 310.685 178.81 297.823 194.98 279.981C221.101 284.13 247.636 282.47 273.343 274.172C299.049 265.873 321.853 252.181 340.925 233.924C364.144 238.903 388.606 237.658 411.825 230.605C418.873 228.53 425.507 225.626 432.141 222.306L470.286 344.294Z" fill="currentColor"/>
-            <path d="M345.486 21.4822C335.121 24.8016 325.584 29.7807 317.292 36.0046C284.123 4.47029 235.198 -8.80732 188.346 6.13C141.909 20.6524 109.154 59.6554 100.447 104.467C90.0817 104.467 79.7162 105.712 68.9362 109.032C17.109 125.629 -11.9142 180.814 4.67046 233.094C21.2552 284.96 76.3993 314.005 128.641 297.408C153.104 289.524 172.591 272.927 184.614 252.181C209.906 261.309 238.929 262.554 266.709 253.426C294.903 244.712 317.292 226.87 333.047 204.879C354.608 215.252 379.899 217.742 404.776 209.858C456.604 193.261 485.627 138.076 469.042 85.7957C452.872 33.93 397.728 5.30014 345.486 21.4822Z" fill="currentColor"/>
-            <path d="M605.036 652.169C606.695 646.36 607.11 640.551 606.695 635.572C606.695 635.157 606.695 634.742 606.695 633.912L606.28 634.327C605.866 629.763 604.622 625.198 601.72 621.879C601.72 621.879 579.745 662.957 552.38 696.151C535.795 716.067 514.65 732.249 494.334 744.282C474.432 756.315 451.213 762.539 425.922 762.539C397.313 762.539 372.021 756.315 350.876 744.282C330.145 732.664 315.219 717.312 305.683 698.64C296.146 679.554 294.903 662.957 302.366 648.019C311.487 631.422 329.73 618.145 357.095 607.772C372.851 601.548 391.509 596.569 412.654 592.419C433.799 588.27 453.701 582.461 473.188 574.992C492.675 567.109 508.845 556.321 522.528 542.213C536.21 528.106 544.088 507.775 545.746 480.804C545.746 460.473 541.185 442.631 532.064 427.279C522.942 411.512 510.918 398.234 496.407 387.446C481.895 376.658 465.31 367.945 447.482 361.306C429.653 354.667 411.825 350.518 393.996 348.858C345.071 344.709 302.78 351.763 267.538 370.019C231.881 388.691 204.101 413.587 183.371 444.706C162.64 475.825 149.372 511.094 143.567 550.097C137.348 589.515 139.421 627.688 148.957 664.201C158.493 700.715 175.907 733.909 201.614 762.539C227.32 791.583 261.319 811.915 303.195 823.533C313.56 827.267 324.34 829.757 335.535 831.416C346.73 833.076 357.924 833.906 369.119 833.906C395.24 833.906 421.361 829.342 447.482 819.384C475.676 809.01 577.257 757.975 605.036 652.169ZM275.001 618.145C270.855 598.643 267.953 576.652 267.123 552.586C266.294 528.521 268.782 504.87 274.172 482.049C279.976 458.813 288.683 438.482 300.707 420.225C312.731 401.969 330.145 388.691 352.12 380.807C363.315 377.073 373.68 374.998 384.045 374.998C400.215 374.998 414.312 379.563 426.751 388.276C439.19 397.404 447.482 411.097 451.213 430.184C453.287 450.515 451.628 467.527 446.653 482.049C441.677 496.572 434.629 508.604 425.507 518.978C415.971 529.351 405.191 538.479 392.752 546.363C380.314 554.246 367.461 562.13 355.022 570.013C342.584 577.482 330.145 585.366 318.536 593.249C306.512 601.133 296.561 610.676 288.683 621.464C282.049 630.178 277.489 628.933 275.001 618.145Z" fill="currentColor"/>
-        </svg>
-    </div>
-</div>
-
-<!-- Preloader End -->
-
-<!-- back to to button start-->
-<a href="#" id="scroll-top" class="back-to-top-btn"><i class="bi bi-arrow-up"></i></a>
-<!-- back to to button end-->
-
-<!-- Header area -->
-
-
-<div class="site-wrapper">
-
-    <header>
-
-        <!-- Menu -->
-
-        <div class="menu-area menu-area-two">
-            <div class="container">
-                <div class="row align-items-center gy-4">
-                    <div class="col-lg-5 d-none d-lg-block">
-                        <div class="mainmenu">
-                            <ul>
-                                <li class="has-child-menu"><a href="javascript:void(0)">Home</a>
-                                    <ul>
-                                        <li><a href='index.html'>Home One</a></li>
-                                        <li><a href='home-02.html'>Home Two</a></li>
-                                        <li><a href='home-03.html'>Home Three</a></li>
-                                        <li><a href='home-04.html'>Home Four</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-child-menu"><a href="javascript:void(0)">Blog</a>
-                                    <ul>
-                                        <li><a href='blog-grid-01.html'>Blog Grid One</a></li>
-                                        <li><a href='blog-grid-02.html'>Blog Grid Two</a></li>
-                                        <li><a href='blog-standard.html'>Blog Standard</a></li>
-                                        <li><a href='blog-details.html'>Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="has-child-menu"><a href="javascript:void(0)">Pages</a>
-                                    <ul>
-                                        <li><a href='about.html'>About</a></li>
-                                        <li><a href='chefs.html'>Chefs</a></li>
-                                        <li><a href='faq.html'>FAQ</a></li>
-                                        <li><a href='reservation.html'>Reservation</a></li>
-                                        <li class="has-child-menu"><a href="javascript:void(0)">Food Menu</a>
-                                            <ul>
-                                                <li><a href='food-menu-01.html'>Food Menu 01</a></li>
-                                                <li><a href='food-menu-02.html'>Food Menu 02</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="has-child-menu"><a href="javascript:void(0)">Contact</a>
-                                    <ul>
-                                        <li><a href='contact-01.html'>Contact One</a></li>
-                                        <li><a href='contact-02.html'>Contact Two</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <div class="menu-btn-wrap flex-shrink-0 d-lg-none pb-5">
-                                <a class="sign-btn common-btn mt-4" href="#">
-                                    <i class="bi bi-person-circle"></i>
-                                    <span>Sign in</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-12 ">
-                        <div class="menu-logo-wrap text-center">
-                            <a href='index.html'><img src="assets/images/logo-two.svg" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 hamburger-menu position-relative col-md-12">
-                        <div class="d-flex menu-info-item align-items-center justify-content-lg-end">
-                            <div class="menu-meta d-flex align-items-center">
-                                <div class="search-wrap position-relative order-2 order-lg-0">
-                                    <div class="search-icon">
-                                        <i class="bi bi-search search"></i>
-                                        <i class="bi bi-x-octagon cancel"></i>
-                                    </div>
-                                    <div class="search-field">
-                                        <form action="#">
-                                            <input type="search" placeholder="Search">
-                                            <i class="bi bi-search search"></i>
-                                        </form>
-                                    </div>
-                                </div>
-                                <a class="cart-icon order-lg-1" href="#"><i class="bi bi-heart"><span>1</span></i></a>
-                                <a class="cart-icon order-lg-2" href="#"><i class="bi bi-cart3"><span>5</span></i></a>
-                            </div>
-                            <div class="menu-btn-wrap flex-shrink-0 d-none d-lg-block">
-                                <a class="sign-btn common-btn" href="#">
-                                    <i class="bi bi-person-circle"></i>
-                                    <span>Sign in</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Menu end -->
-
-
-    </header>
-
-
-    <!-- Breadcrumb -->
-
-    <div class="breadcrumb-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-info text-center">
-                        <h1 class="text-white">Reservation</h1>
-                        <p class="text-white mt-3"><a href='index.html'>Home</a><i class="bi bi-chevron-right ms-2 me-2"></i>Reservation</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Breadcrumb End -->
-
-
-
-    <!-- Address -->
-
+<div class="site-wrapper ">
+    <br>
     <div class="address-area">
-        <div class="container">
+        <div class="container ">
             <div class="row gy-4 justify-content-center">
                 <div class="col-lg-4 col-md-6">
                     <div class="address-box text-center">
                         <div class="address-icon d-flex align-items-center justify-content-center">
-                            <i class="bi bi-envelope"></i>
+                            <i class="bi bi-people-fill"></i>
                         </div>
-                        <p>Email Us</p>
-                        <a class="address-link" href="mailto:support@epicurean.com">support@epicurean.com</a>
+                        <a class="address-link" href="#">Add a supplier</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="address-box text-center">
                         <div class="address-icon d-flex align-items-center justify-content-center">
-                            <i class="bi bi-telephone"></i>
+                            <i class="bi bi-minecart"></i>
                         </div>
-                        <p>Call Us</p>
-                        <a class="address-link" href="tel:5550102">(684) 555-0102</a>
+                        <a class="address-link" href="#">Add a category</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="address-box text-center">
                         <div class="address-icon d-flex align-items-center justify-content-center">
-                            <i class="bi bi-geo-alt"></i>
+                            <i class="bi bi-list-columns"></i>
                         </div>
-                        <p>Location</p>
-                        <span class="address-link">1616 Broadway NY, New York</span>
+                        <span class="address-link">List of products</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Address End -->
-
-
-    <!-- Reservation -->
-
-    <div class="reservation-page-section pt-120 pb-120">
+    <div class="reservation-page-section pt-60 pb-60">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-6">
                     <div class="section-title text-center">
-                        <span>Reservation</span>
-                        <h2 class="mt-2">Create Unforgettable Moments By Reserve a Table Now</h2>
+                        <span>Add a new product</span>
+                        <h2 class="mt-2">Use Gest to manage your products</h2>
                     </div>
                 </div>
             </div>
@@ -314,17 +170,17 @@
                         <div class="row gy-4">
                             <div class="col-md-6">
                                 <div class="input1_wrapper">
-                                    <input type="text" class="input" placeholder="Your Name" required>
+                                        <input type="text" class="input" name="" placeholder="Product Name" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="input1_wrapper">
-                                    <input type="text" class="input" placeholder="Phone" required>
+                                        <input type="text" class="input" name="" placeholder="price" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="input1_wrapper">
-                                    <input type="email" class="input" placeholder="Email Address" required>
+                                    <input type="text" class="input" name="" placeholder="Quantity in stock" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -341,14 +197,8 @@
                                 <div class="select1_wrapper">
                                     <div class="select1_inner persons">
                                         <select class="select2 select">
-                                            <option value="0">Persons</option>
-                                            <option value="1">1 Person</option>
-                                            <option value="2">2 People</option>
-                                            <option value="3">3 People</option>
-                                            <option value="4">4 People</option>
-                                            <option value="5">5 People</option>
-                                            <option value="6">6 People</option>
-                                            <option value="7">7 People</option>
+                                            <option>supplier</option>
+                                            <option value="jambo">jambo</option>
                                         </select>
                                         <svg class="form-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="21" viewBox="0 0 25 21" fill="none">
                                             <path d="M12.9983 0.0441589C14.4247 0.193534 15.7583 1.10424 16.3934 2.37634C16.7255 3.02685 16.8477 3.57134 16.8477 4.35195C16.8428 6.28419 15.5238 7.96105 13.5991 8.47663C13.2816 8.56337 13.0764 8.58264 12.5 8.58264C11.9236 8.58264 11.7184 8.56337 11.4009 8.47663C9.47619 7.96105 8.15724 6.28419 8.15235 4.35195C8.15235 3.78818 8.21586 3.37378 8.35752 2.95939C8.92418 1.33071 10.3311 0.222445 12.0652 0.03934C12.3193 0.0152473 12.544 -0.00402641 12.5733 0.00079155C12.5977 0.00079155 12.7931 0.0200663 12.9983 0.0441589Z" fill="currentColor"/>
@@ -365,14 +215,8 @@
                                 <div class="select1_wrapper">
                                     <div class="select1_inner">
                                         <select class="select2 select">
-                                            <option value="0">Time</option>
-                                            <option value="1">10:00 am</option>
-                                            <option value="2">11:00 am</option>
-                                            <option value="3">12:00 pm</option>
-                                            <option value="4">14:00 pm</option>
-                                            <option value="5">16:00 pm</option>
-                                            <option value="6">18:00 pm</option>
-                                            <option value="7">20:00 pm</option>
+                                            <option  >category</option>
+                                            <option value="1">1</option>
                                         </select>
                                         <svg class="form-icon" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="../../www.w3.org/2000/svg.html">
                                             <path d="M11.745 0.0708084C7.10438 0.729124 3.25688 3.53118 1.2825 7.68363C0.410625 9.51228 0 11.3803 0 13.4903C0 15.1277 0.18 16.2642 0.675 17.7778C2.15438 22.2791 5.94 25.6832 10.6088 26.7072C11.9363 26.9998 13.8769 27.0842 15.2269 26.9098C19.9237 26.2909 23.9231 23.32 25.8469 19.0213C26.3869 17.8116 26.7356 16.5568 26.9156 15.2177C27.0281 14.3456 27.0281 12.6351 26.9156 11.7629C26.1394 5.86623 21.6788 1.20176 15.8063 0.155209C14.9063 -0.00796509 12.6169 -0.0529766 11.745 0.0708084ZM14.9063 2.29895C18.675 2.76033 22.0388 5.19666 23.6756 8.65141C24.7894 11.009 25.065 13.7041 24.4406 16.1911C23.4225 20.2479 20.2556 23.4157 16.2 24.4341C14.9006 24.7604 13.275 24.8505 11.9644 24.6648C8.20688 24.1359 4.93875 21.7389 3.32438 18.3292C2.58188 16.7537 2.23875 15.2402 2.23875 13.4903C2.23875 10.4632 3.3975 7.67238 5.54063 5.52863C7.53188 3.53118 10.0125 2.42836 12.9656 2.21455C13.3538 2.18642 14.3269 2.23143 14.9063 2.29895Z" fill="currentColor"/>
@@ -382,7 +226,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="common-btn border-radius-0 border-0 text-capitalize mt-2"><span>Book Now</span></button>
+                                <button type="submit" class="common-btn border-radius-0 border-0 text-capitalize mt-2"><span>ADD</span></button>
                             </div>
                         </div>
                     </form>
@@ -391,136 +235,8 @@
         </div>
     </div>
 
-    <!-- Reservation End -->
 
 
-    <!-- Instagram -->
-
-    <div class="instagram-area pb-2">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 p-0">
-                    <div class="swiper instagram-slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide instagram-img-wrap position-relative ">
-                                <img src="assets/images/instagram/instagram-1.png" alt="">
-                                <a class="instagram-icon position-absolute h-100 w-100 d-flex justify-content-center align-items-center top-0 start-0" href="#"><i class="bi bi-instagram"></i></a>
-                            </div>
-                            <div class="swiper-slide instagram-img-wrap position-relative ">
-                                <img src="assets/images/instagram/instagram-2.png" alt="">
-                                <a class="instagram-icon position-absolute h-100 w-100 d-flex justify-content-center align-items-center top-0 start-0" href="#"><i class="bi bi-instagram"></i></a>
-                            </div>
-                            <div class="swiper-slide instagram-img-wrap position-relative ">
-                                <img src="assets/images/instagram/instagram-3.png" alt="">
-                                <a class="instagram-icon position-absolute h-100 w-100 d-flex justify-content-center align-items-center top-0 start-0" href="#"><i class="bi bi-instagram"></i></a>
-                            </div>
-                            <div class="swiper-slide instagram-img-wrap position-relative ">
-                                <img src="assets/images/instagram/instagram-4.png" alt="">
-                                <a class="instagram-icon position-absolute h-100 w-100 d-flex justify-content-center align-items-center top-0 start-0" href="#"><i class="bi bi-instagram"></i></a>
-                            </div>
-                            <div class="swiper-slide instagram-img-wrap position-relative ">
-                                <img src="assets/images/instagram/instagram-5.png" alt="">
-                                <a class="instagram-icon position-absolute h-100 w-100 d-flex justify-content-center align-items-center top-0 start-0" href="#"><i class="bi bi-instagram"></i></a>
-                            </div>
-                            <div class="swiper-slide instagram-img-wrap position-relative ">
-                                <img src="assets/images/instagram/instagram-6.png" alt="">
-                                <a class="instagram-icon position-absolute h-100 w-100 d-flex justify-content-center align-items-center top-0 start-0" href="#"><i class="bi bi-instagram"></i></a>
-                            </div>
-                            <div class="swiper-slide instagram-img-wrap position-relative ">
-                                <img src="assets/images/instagram/instagram-3.png" alt="">
-                                <a class="instagram-icon position-absolute h-100 w-100 d-flex justify-content-center align-items-center top-0 start-0" href="#"><i class="bi bi-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Instagram End -->
-
-
-    <!-- Footer -->
-
-    <div class="footer-area">
-        <div class="container">
-            <div class="row justify-content-between copyright-wrap">
-                <div class="col-lg-2 col-md-6">
-                    <div class="footer-box">
-                        <h2 class="h2 text-white footer-title">Product</h2>
-                        <ul class="footer-list custom-ul">
-                            <li><a href="#">Breakfast</a></li>
-                            <li><a href="#">Lunch</a></li>
-                            <li><a href="#">Desserts</a></li>
-                            <li><a href="#">Dinner</a></li>
-                            <li><a href="#">Book a table</a></li>
-                            <li><a href="#">Our Chefs</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6">
-                    <div class="footer-box">
-                        <h2 class="h2 text-white footer-title">Information</h2>
-                        <ul class="footer-list custom-ul">
-                            <li><a href='faq.html'>FAQ</a></li>
-                            <li><a href='blog-standard.html'>Blog</a></li>
-                            <li><a href='contact-01.html'>Support</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6">
-                    <div class="footer-box">
-                        <h2 class="h2 text-white footer-title">Company</h2>
-                        <ul class="footer-list custom-ul">
-                            <li><a href='about.html'>About us</a></li>
-                            <li><a href='reservation.html'>Our Menu</a></li>
-                            <li><a href='contact-01.html'>Contact us</a></li>
-                            <li><a href='index.html'>Epicurean</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6">
-                    <div class="footer-box">
-                        <div class="footer-subscribe">
-                            <div class="footer-subscribe-img position-relative">
-                                <img class="w-100" src="assets/images/footer-subscribe-bg.png" alt="">
-                                <div class="section-title ps-4 position-absolute top-50 start-50 translate-middle w-100">
-                                    <span class="text-white">Subscribe</span>
-                                    <h2 class="mt-2 text-white">Our News letter</h2>
-                                    <p class="mt-3 text-white">To Get Regular Update</p>
-                                </div>
-                            </div>
-                            <form class="footer-subscribe-form mt-4 d-flex justify-content-between align-items-center" action="#">
-                                <input class="w-100 border-0 h-100 ps-3 pe-3" type="email" placeholder="Enter your mail">
-                                <button class="common-btn h-100 flex-shrink-0 border-0 border-radius-0 ms-lg-4 ms-2" type="submit"><span>Subscribe</span></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center mt-4">
-                <div class="col-lg-4 text-center text-lg-start">
-                    <a class='footer-logo ' href='index.html'><img src="assets/images/logo-two.svg" alt=""></a>
-                </div>
-                <div class="col-lg-4">
-                    <ul class="footer-menu custom-ul d-flex justify-content-center mt-3 mb-3 mt-lg-0 mb-lg-0">
-                        <li><a href="#">Terms</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Cookies</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4">
-                    <ul class="custom-ul social-list chefs-social-list d-flex justify-content-center justify-content-lg-end align-items-center">
-                        <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
-                        <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
-                        <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer End -->
 
 
 </div>
