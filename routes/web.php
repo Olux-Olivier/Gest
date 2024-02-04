@@ -33,8 +33,32 @@ Route::post('/register', [ProductController::class,'createProduct']);
 //affichage des categopries sur le formulaire registerProduct
 Route::get('register', [CategoryController::class, 'index']);
 
+//affichage des suppliers sur le formulaire registerProduct
+Route::get('register', [SupplierController::class, 'supplier']);
+
 //creation d'un produit
 Route::get('/register', [ProductController::class,'register']); //regsiter product
+
+
+
+// Route::get('data', function () {
+//     $users = UserController::all();
+//     $posts = PostController::all();
+//     $comments = CommentController::all();
+
+//     return view('data', compact('users', 'posts', 'comments'));
+// });
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Routes des fournissseurs
